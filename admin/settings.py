@@ -24,6 +24,7 @@ SECRET_KEY = 'django-insecure-p%5po*dtckpy)hj=__=9r2jiz2sx=3e09@%#h4k7tnj=4j_e)!
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+APPEND_SLASH = False
 
 ALLOWED_HOSTS = []
 
@@ -39,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'products'
+    'products',
+    'shop'
 ]
 
 MIDDLEWARE = [

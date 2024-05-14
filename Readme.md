@@ -12,3 +12,10 @@
 # run djano app:
 `cd .\admin\`
 `python .\manage.py runserver`
+
+# create app 
+`django-admin startapp bro`
+
+# Docker
+    ## docker compose
+    `docker-compose up`

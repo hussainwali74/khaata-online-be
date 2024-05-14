@@ -1,0 +1,38 @@
+# .dockerignore
+
+# Python cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv
+env
+
+# Django static files
+staticfiles
+
+# Django media files
+media
+
+# Local database files
+*.sqlite3
+db.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.idea
+*.vscode
+
+
+# Git files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
